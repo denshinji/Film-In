@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MY MOVIE</string>
+
+    <string name="title_activity_button_nav">ButtonNav</string>
+    <string name="title_activity_button_navigation">ButtonNavigation</string>
+    <string name="movie">MOVIE</string>
+    <string name="tv_show">TV SHOW</string>
+    <string name="date_release">DATE RELEASE :</string>
+    <string name="languange">LANGUANGE    :</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="action_settings">Change Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popularity">POPULARITY :</string>
+    <string name="vote_count">VOTE COUNT :</string>
+    <string name="content_detail">CONTENT DETAILS</string>
+    <string name="loading">Loading Data...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="popular">POPULAR</string>
+    <string name="on_the_air">ON THE AIR</string>
+    <string name="favorite">FAVORITE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="remove_log">Remove succes</string>
+    <string name="add_log">Add Favorite Succes</string>
+    <string name="succes_fav">Success add this item in favorite list</string>
+    <string name="remove_succes">Success removed this item from favorite list</string>
+    <string name="fav_tab_movie">MOVIE</string>
+    <string name="fav_tab_tv">TV SHOW</string>
+    <string name="search">SEARCH</string>
+    <string name="attention">Input The Title</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="name_widget">FAVORITE LIST</string>
+    <string name="nodata">NO DATA</string>
+    <string name="default_notification_channel_name">News</string>
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="setting">SETTING</string>
+    <string name="title_notif_daily">CHECK THE NEW FILM !</string>
+    <string name="context_notif_daily">SEE YOUR FAVORITE FILM NOW !</string>
+    <string name="reminder_on">Reminder set up</string>
+    <string name="cancel_repeating_movie">Cancel Reminder Daily</string>
+    <string name="reminder_off">Reminder is canceled</string>
+    <string name="tittle_release_reminder">THE NEW MOVIE HAS RELEASE TODAY, LET\'S CHECKOUT</string>
+    <string name="no_movie">No movie release today</string>
+    <string name="new_release">THE NEW MOVIE TODAY !!</string>
+    <string name="repeating_movie">Reminder Movie Daily</string>
+    <string name="has_been_released">has been released</string>
+    <string name="action_search">SEARCH</string>
+    <string name="your_favorite">My Favorite</string>
+    <string name="nodatafav">NO DATA</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>

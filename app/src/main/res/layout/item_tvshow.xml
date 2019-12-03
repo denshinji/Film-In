@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rv_show"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorgrey">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:elevation="3dp"
+        app:cardBackgroundColor="@color/cardview_dark_background"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true">
+
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="130dp"
+            android:background="@drawable/box_left" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:id="@+id/fame_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp">
+
+                <ImageView
+                    android:id="@+id/item_photo"
+                    android:layout_width="80dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="4dp"
+                    android:padding="2dp"
+                    android:scaleType="fitXY" />
+
+                <ImageView
+                    android:layout_width="81dp"
+                    android:layout_height="121dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@drawable/box_white"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/item_judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:layout_toEndOf="@+id/fame_img"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_toEndOf="@+id/item_release"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/star"
+                android:layout_below="@id/item_judul"
+                android:background="@drawable/ic_stars_black_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorText"
+                android:textStyle="bold"
+                android:id="@+id/item_rate"
+                android:layout_marginLeft="1dp"
+                android:layout_below="@id/item_judul"
+                android:layout_toEndOf="@id/star"/>
+            <TextView
+                android:id="@+id/item_release"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/item_judul"
+                android:layout_marginStart="26dp"
+                android:layout_toEndOf="@+id/fame_img"
+                android:background="@drawable/box_gold"
+                android:paddingLeft="4dp"
+                android:paddingTop="1dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="1dp"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/item_deksripsi"
+                android:layout_width="240dp"
+                android:layout_height="70dp"
+                android:layout_below="@+id/item_release"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/fame_img"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:paddingRight="5dp"
+                android:textColor="@android:color/white"
+                android:textSize="12sp" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

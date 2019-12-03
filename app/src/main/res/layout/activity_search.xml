@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_movie"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorgrey"
+    tools:context=".Fragment.MovieFragment">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorgrey"
+            android:iconifiedByDefault="false"
+            android:theme="@style/SearchView"></SearchView>
+
+        <ProgressBar
+            android:id="@+id/pr_search"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="300dp"
+            android:indeterminateDrawable="@drawable/pb"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/emptyview"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="250dp"
+            android:text="@string/film_not_found"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/searchview"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="220dp"
+            android:background="@drawable/searchnew"
+            android:visibility="visible" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/list_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"
+            tools:listitem="@layout/item_film" />
+
+
+    </LinearLayout>
+</FrameLayout>

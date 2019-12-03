@@ -1,0 +1,2 @@
+include ':app', ':favmov'
+rootProject.name='FILM IN'

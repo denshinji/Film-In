@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "112754993380",
+    "firebase_url": "https://film-in.firebaseio.com",
+    "project_id": "film-in",
+    "storage_bucket": "film-in.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112754993380:android:5f8f31aafced5976b9e4f1",
+        "android_client_info": {
+          "package_name": "com.example.filmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112754993380-qhemu3se9n2r2vsap0ccji34vibeb7mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.filmin",
+            "certificate_hash": "053ea27f2c22dda2d1d7f409b229025c784182fd"
+          }
+        },
+        {
+          "client_id": "112754993380-k3ktfrtm7tei287otbk9p1anm2786t1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBrhA_gzzdbjfT0i1dLXDl0SqOFqY9WtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112754993380-k3ktfrtm7tei287otbk9p1anm2786t1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

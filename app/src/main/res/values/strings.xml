@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">FILM IN</string>
+
+    <string name="movie">MOVIE</string>
+    <string name="tv_show">TV SHOW</string>
+    <string name="date_release">DATE RELEASE :</string>
+    <string name="languange">LANGUANGE    :</string>
+    <string name="overview">OVERVIEW</string>
+    <string name="action_settings">Change Language</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="popularity">POPULARITY :</string>
+    <string name="vote_count">VOTE COUNT :</string>
+    <string name="content_detail">CONTENT DETAILS</string>
+    <string name="loading">Loading Data...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="now_playing">NOW PLAYING</string>
+    <string name="popular">POPULAR</string>
+    <string name="on_the_air">ON THE AIR</string>
+    <string name="favorite">FAVORITE</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="succes_fav">Success add this item in favorite list</string>
+    <string name="remove_succes">Success removed this item from favorite list</string>
+    <string name="fav_tab_movie">MOVIE</string>
+    <string name="fav_tab_tv">TV SHOW</string>
+    <string name="search">SEARCH</string>
+    <string name="attention">Input The Title</string>
+    <string name="setting">SETTING</string>
+    <string name="title_notif_daily">CHECK THE NEW FILM !</string>
+    <string name="context_notif_daily">SEE YOUR FAVORITE FILM NOW !</string>
+    <string name="reminder_on">Reminder set up</string>
+    <string name="cancel_repeating_movie">Cancel Reminder Daily</string>
+    <string name="reminder_off">Reminder is canceled</string>
+    <string name="no_movie">No movie release today</string>
+    <string name="repeating_movie">Reminder Movie Daily</string>
+    <string name="has_been_released">has been released</string>
+    <string name="your_favorite">My Favorite</string>
+    <string name="my_favorite">MY FAVORITE MOVIE</string>
+    <string name="no_fav">NO FAVORITE DATA</string>
+    <string name="SET_DAILY">SET DAILY USER REMINDER</string>
+    <string name="TIME_DAILY">Notification will be set at 07.00 AM</string>
+    <string name="RELEASE_SET">SET RELEASE REMINDER TODAY</string>
+    <string name="TIME_RELEASE">Notification will be set at 08.00 AM</string>
+    <string name="touched">TOUCHED VIEW :</string>
+    <string name="film_not_found">FILM NOT FOUND</string>
+    <string name="trailer">TRAILER</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
